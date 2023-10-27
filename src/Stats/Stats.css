@@ -1,4 +1,43 @@
-.stats-container {
+.skills-container {
+  font-family: Montserrat, sans-serif;
+  width: 30vw;
+}
+
+.skills-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d3657;
+}
+
+.skills-icons {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #808080;
+  margin-right: 0.5em;
+}
+
+.skills-icons a {
+  cursor: pointer;
+  font-size: large;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+}
+
+.skills-icons a:hover {
+  background-color: #d3d3d3;
+}
+
+.skills-top h3 {
+  color: rgb(255, 255, 255);
+}
+
+.skills-rows {
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
 }
