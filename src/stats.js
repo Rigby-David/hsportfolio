@@ -55,12 +55,14 @@ const statsObj = {
       name: "Express",
       rating: "99.9%",
     },
-    {
-      id: 12,
-      name: "GitHub",
-      rating: "99.9%",
-    },
+    // {
+    //   id: 12,
+    //   name: "GitHub",
+    //   rating: "99.9%",
+    // },
   ],
 };
+
+const headerIconsObj = {};
 
 export { statsObj };
