@@ -8,9 +8,9 @@ export default function Stats() {
     <div className="skills-container">
       <section className="skills-top">
         <h3>Skills</h3>
-        <section className="header-icons">
+        <section className="skills-icons">
           {headerIconsObj.map((obj) => {
-            return <a key={obj.id}>{obj.name}</a>;
+            return <a key={obj.id}>{obj.icon}</a>;
           })}
         </section>
       </section>

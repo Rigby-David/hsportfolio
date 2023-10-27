@@ -1,14 +1,30 @@
-/* .skills-container {
-} */
+.skills-container {
+  font-family: Montserrat, sans-serif;
+  width: 30vw;
+}
 
 .skills-top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background-color: #1d3657;
 }
 
-/* .skills-top h3 {
-  margin: 0;
-} */
+.skills-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: gray;
+  margin-right: 0.5em;
+}
+
+.skills-icons a {
+  font-size: large;
+  margin: 0.1em;
+}
+
+.skills-top h3 {
+  color: rgb(255, 255, 255);
+}
 
 .skills-rows {
   display: grid;

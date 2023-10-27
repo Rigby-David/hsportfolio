@@ -61,31 +61,31 @@ const headerIconsObj = [
     id: 1,
     name: "home",
     href: "",
-    icon: "",
+    icon: "🏠",
   },
   {
     id: 2,
     name: "about",
     href: "",
-    icon: "",
+    icon: "ℹ️",
   },
   {
     id: 3,
     name: "contact",
     href: "",
-    icon: "",
+    icon: "📞",
   },
   {
     id: 4,
     name: "resume",
     href: "",
-    icon: "",
+    icon: "📝",
   },
   {
     id: 5,
     name: "projects",
     href: "",
-    icon: "",
+    icon: "🛠️",
   },
 ];
 
