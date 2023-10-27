@@ -13,13 +13,19 @@
 .skills-icons {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  background-color: gray;
+  background-color: #808080;
   margin-right: 0.5em;
 }
 
 .skills-icons a {
+  cursor: pointer;
   font-size: large;
-  margin: 0.1em;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+}
+
+.skills-icons a:hover {
+  background-color: #d3d3d3;
 }
 
 .skills-top h3 {

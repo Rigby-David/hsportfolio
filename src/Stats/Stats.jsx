@@ -17,7 +17,11 @@ export default function Stats() {
       <div className="skills-rows">
         {statsObj.map((obj) => {
           return (
-            <section key={obj.id} className="skill-row">
+            <section
+              key={obj.id}
+              className="skill-row"
+              style={{ backgroundColor: obj.color }}
+            >
               <div>
                 #{obj.id} {obj.name}
               </div>
