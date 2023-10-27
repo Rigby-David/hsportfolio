@@ -5,24 +5,27 @@ export default function Stats() {
   console.log(statsObj);
   console.log("headerIconsObj", headerIconsObj);
   return (
-    <div className="stats-container">
-      <header>
+    <div className="skills-container">
+      <section className="skills-top">
         <h3>Skills</h3>
+        <section className="header-icons">
+          {headerIconsObj.map((obj) => {
+            return <a key={obj.id}>{obj.name}</a>;
+          })}
+        </section>
+      </section>
+      <div className="skills-rows">
         {statsObj.map((obj) => {
           return (
             <section key={obj.id} className="skill-row">
-              #{obj.id} {obj.name} {obj.rating}
+              <div>
+                #{obj.id} {obj.name}
+              </div>
+              <div>{obj.rating}</div>
             </section>
           );
         })}
-        <section className="header-icons">
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-        </section>
-      </header>
+      </div>
     </div>
   );
 }

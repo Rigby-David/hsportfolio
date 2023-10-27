@@ -1,4 +1,21 @@
-.stats-container {
+/* .skills-container {
+} */
+
+.skills-top {
+  display: flex;
+  align-items: center;
+}
+
+/* .skills-top h3 {
+  margin: 0;
+} */
+
+.skills-rows {
   display: grid;
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
 }
